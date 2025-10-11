@@ -1,0 +1,41 @@
+{
+    "name": "coding_samples_devcontainer",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "coding_samples_devcontainer",
+    "workspaceFolder": "/workspaces/polylith",
+    "shutdownAction": "stopCompose",
+    "features": {
+        "ghcr.io/devcontainers/features/common-utils:2": {
+            "installZsh": true,
+            "configureZshAsDefaultShell": true,
+            "installOhMyZsh": true,
+            "installOhMyZshConfig": true,
+            "username": "developer",
+            "userUid": 1000,
+            "userGid": 1000
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions.verifySignature": false,
+            "extensions": [
+                "ms-python.mypy-type-checker",
+                "ms-python.vscode-pylance",
+                "ms-python.pylint",
+                "ms-python.python",
+                "ms-python.debugpy",
+                "ms-python.vscode-python-envs",
+                "charliermarsh.ruff",
+                "ms-toolsai.jupyter",
+                "ms-toolsai.vscode-jupyter-cell-tags",
+                "ms-toolsai.jupyter-renderers",
+                "ms-toolsai.vscode-jupyter-slideshow",
+                "GitHub.copilot",
+                "GitHub.copilot-chat",
+                "Google.geminicodeassist",
+                "ai-run-codemie.codemie"
+            ]
+        }
+    },
+    "postCreateCommand": "bash .devcontainer/post-create-script.sh"
+}

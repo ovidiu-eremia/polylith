@@ -1,0 +1,12 @@
+version: '3'
+services:
+  coding_samples_devcontainer:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ..:/workspaces/polylith:cached
+      - "${SSH_AUTH_SOCK}:/ssh-agent"
+    environment:
+      SSH_AUTH_SOCK: /ssh-agent
+    command: sleep infinity
