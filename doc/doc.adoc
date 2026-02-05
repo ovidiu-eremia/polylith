@@ -227,6 +227,7 @@ example$ doc more:blog-posts:
 a-fresh-take-on-monorepos-in-python
 how-polylith-came-to-life
 leveraging-polylith-to-improve-consistency-reduce-complexity-and-increase-changeability
+tetris-playing-ai-the-polylith-way-1
 the-micro-monolith-architecture
 the-monorepos-polylith-series
 the-origin-of-complexity
@@ -238,11 +239,15 @@ understanding-polylith-through-the-lens-of-hexagonal-architecture
 | Blog post | What | Published
 
 [[leveraging-polylith]]
+| https://tengstrand.github.io/blog/2025-12-28-tetris-playing-ai-the-polylith-way-1.html[Tetris-playing AI using Polylith - Part 1]
+| https://github.com/tengstrand[Joakim Tengstrand] Joakim implements a Tetris playing "AI" in Clojure and Python while reflecting on the differences between the languages. Part 1 of a blog series."
+| 2025
+
 | https://medium.com/qantas-engineering-blog/leveraging-polylith-to-improve-consistency-reduce-complexity-and-increase-changeability-2031dd3d5f3d[leveraging-polylith-to-improve-consistency-reduce-complexity-and-increase-changeability]
 | https://github.com/xlfe[Felix Barbalet] explains how Poilylith helps reduce complexity in an existing production system.
 | 2024
 
-| https://medium.com/@joakimtengstrand/understanding-polylith-through-the-lens-of-hexagonal-architecture-8e7c8757dab1[understanding-polylith-through-the-lens-of-hexagonal-architecture]
+| https://tengstrand.github.io/blog/2023-11-01-understanding-polylith-through-the-lens-of-hexagonal-architecture.html[understanding-polylith-through-the-lens-of-hexagonal-architecture]
 | https://github.com/tengstrand[Joakim Tengstrand] explains the differences between the Hexagonal architecture and Polylith.
 | 2023
 
@@ -254,15 +259,15 @@ understanding-polylith-through-the-lens-of-hexagonal-architecture
 | https://github.com/seancorfield[Sean Corfield] describes his experience migrating a big production system to Polylith in a series of blog posts.
 | 2021-2023
 
-| https://itnext.io/the-origin-of-complexity-8ecb39130fc[the-origin-of-complexity]
+| https://tengstrand.github.io/blog/2019-09-14-the-origin-of-complexity.html[the-origin-of-complexity]
 | https://github.com/tengstrand[Joakim Tengstrand] explains the foundational concepts that Polylith is built upon.
 | 2019
 
-| https://medium.com/@joakimtengstrand/the-polylith-architecture-1eec55c5ebce[how-polylith-came-to-life]
+| https://tengstrand.github.io/blog/2018-10-02-how-polylith-came-to-life.html[how-polylith-came-to-life]
 | https://github.com/tengstrand[Joakim Tengstrand] explains how the Polylith architecture came to life.
 | 2018
 
-| https://medium.com/@joakimtengstrand/the-micro-monolith-architecture-d135d9cafbe[the-micro-monolith-architecture]
+| https://tengstrand.github.io/blog/2016-12-28-the-micro-monolith-architecture.html[the-micro-monolith-architecture]
 | https://github.com/tengstrand[Joakim Tengstrand] explains the ideas behind Micro Monolith, a predecessor to Polylith.
 | 2016
 
@@ -372,12 +377,18 @@ developer-tooling-for-speed-and-productivity-in-2024
 how-the-polylith-repo-has-evolved-over-time
 polylith-in-a-nutshell
 polylith–a-software-architecture-based-on-lego-like-blocks
+the-gentle-monorepo
 the-last-architecture-you-will-ever-need
 ----
 
 [%autowidth]
 |===
 | Video | What | Published
+
+| https://www.youtube.com/watch?v=k49496sH9aw[the-gentle-monorepo]
+| https://www.linkedin.com/in/gerbendekker/[Gerben Dekker] explains how you can ship faster and collaborate better, using Polylith and other tools (in Python).
+He starts talking about Polylith at 9:20.
+| 2025
 
 | https://youtu.be/pVvuyaRDA58?si=rBFMEyGtspdmGV29&t=1333[developer-tooling-for-speed-and-productivity-in-2024]
 | A talk by https://github.com/vedang[Vedang Manerikar] from the https://inclojure.org[IN/Clojure] 2024 conference, where he talks about the advantages of Polylith.
